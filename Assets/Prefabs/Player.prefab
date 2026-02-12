@@ -154,7 +154,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1786028019
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1a838243856331f4681c559527ad5846, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -333,7 +333,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1786028019
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: 8769e4453ce5bc3429cfba7d58fbef13, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
@@ -837,6 +837,7 @@ GameObject:
   - component: {fileID: -6439394994881087183}
   - component: {fileID: 6422370614692935397}
   - component: {fileID: 8638289622426623663}
+  - component: {fileID: 4314028978528180901}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1046,7 +1047,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   virtualCamera: {fileID: 5378214028301564018}
+  <Health>k__BackingField: {fileID: 6422370614692935397}
+  <Wallet>k__BackingField: {fileID: 4314028978528180901}
   ownerPriority: 15
+--- !u!114 &4314028978528180901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7705459071679272736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120a206ba091e5447bd335cccd5f7d94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  TotalCoins:
+    m_InternalValue: 0
 --- !u!1 &8205571288362199984
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,7 +1141,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1786028019
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 200
   m_Sprite: {fileID: 21300000, guid: a94bf141bd2044c4399e321445c83112, type: 3}
   m_Color: {r: 0, g: 0.8565588, b: 1, a: 1}
